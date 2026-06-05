@@ -5,7 +5,7 @@ export default function LanguagesSection() {
     {
       name: 'English',
       native: 'English',
-      level: 'Bilingual - C2',
+      level: 'Bilingual - B2/C1',
      
     },
     {
@@ -18,6 +18,13 @@ export default function LanguagesSection() {
       name: '한국어',
       native: 'Korean',
       level: 'Beginner+',
+     
+    },
+
+    {
+      name: 'Español',
+      native: 'Spanish',
+      level: 'Conversationnal',
      
     },
   ];
