@@ -58,7 +58,6 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-purple-500/20 text-center text-gray-400">
           <p className="flex items-center justify-center gap-2 text-base">
-            Made by Celia
           </p>
           <p className="mt-2 text-sm">
             © 2026 - Cel's Portfolio - こんにちは、世界
