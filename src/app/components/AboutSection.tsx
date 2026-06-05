@@ -57,7 +57,7 @@ export default function AboutSection() {
                 Hello ! I am Celia, an aspiring video-game / application developper.
               </p>
               <p className="text-lg text-gray-400 leading-relaxed">
-                Fascinated by technology since I'm 6, I combine technical rigor with artistic
+                Fascinated by technology since I'm 6 years old, I combine technical rigor with artistic
                 creativity to build unique experiences.
                 Whether developing games, web
                 applications, or drawing, I approach
