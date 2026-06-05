@@ -4,13 +4,13 @@ export default function JourneySection() {
   const journeyItems = [
     {
       title: 'Internship — Samsung Electronics',
-      description: 'First contact with tech industry: mobile phone troubleshooting and customer service. Discovered my passion for technology and its potential to help users.',
+      description: 'First contact with tech industry: complex databases in software solutions sales in the B2B section.',
       period: 'Middle School',
       color: 'cyan',
     },
     {
       title: 'Baccalauréat — CNED',
-      description: 'Obtained my high school diploma through CNED distance learning program with specialization NS and LLCER Anglais AMC (English and Contemporary World), developing autonomy and English language skills.',
+      description: 'Graduated from HighSchool through CNED distance learning program with specialization NSI  and LLCER Anglais AMC (English and Contemporary World) and a maths option, developing autonomy and discipline.',
       period: 'High School',
       color: 'purple',
     },
