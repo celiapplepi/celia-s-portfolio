@@ -6,25 +6,19 @@ export default function LanguagesSection() {
       name: 'English',
       native: 'English',
       level: 'Bilingual - C2',
-      flag: '🇬🇧',
+     
     },
     {
       name: '日本語',
       native: 'Japanese',
       level: 'N4 - Intermediate',
-      flag: '🇯🇵',
+      
     },
     {
       name: '한국어',
       native: 'Korean',
       level: 'Beginner+',
-      flag: '🇰🇷',
-    },
-    {
-      name: 'العربية',
-      native: 'Arabic',
-      level: 'Conversational',
-      flag: '🇸🇦',
+     
     },
   ];
 
