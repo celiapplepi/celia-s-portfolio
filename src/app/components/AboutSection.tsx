@@ -2,20 +2,26 @@ import aboutImage from "../../imports/image-2.png";
 
 export default function AboutSection() {
   const skills = [
-    { name: "SQL/PLSQL", level: 15 },
-    { name: "C++", level: 25 },
-    { name: "Python", level: 30 },
-    { name: "Java", level: 30 },
-    { name: "C#", level: 40 },
+    {name:"React.js",level:10},
+    { name: "SQL/PL-SQL", level: 15 },
+    { name: "C++", level: 20 },
+    { name: "Python", level: 22 },
+    { name: "Java", level: 23 },
+    { name: "C#", level: 25 },
+    {name:"Linux",level:35},
+    {name:"Git",level:38},
     { name: "HTML/CSS", level: 40 },
+   
   ];
 
   const secondarySkills = [
     { name: "Teamwork", level: 50 },
+    {name:"Learning",level:50},
     { name: "Adaptability", level: 50 },
-    { name: "Communication", level: 50 },
-    { name: "Critical thinking", level: 70 },
+    { name: "Communication", level: 45 },
+    { name: "Critical thinking", level: 67 },
     { name: "Perfectionnism", level: 70 },
+    { name: "Perseverance", level: 80 },
   ];
 
   const interests = [
@@ -25,6 +31,7 @@ export default function AboutSection() {
     "Riddles and enigmas",
     "Jellyfish",
     "Languages & cultures",
+    "Animes and Japanese litterature",
   ];
 
   return (
@@ -47,16 +54,15 @@ export default function AboutSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-xl text-gray-300 leading-relaxed">
-                I'm a curious, creative and passionate
-                developer.
+                Hello ! I am Celia, an aspiring video-game / application developper.
               </p>
               <p className="text-lg text-gray-400 leading-relaxed">
-                Combining technical rigor with artistic
-                creativity, I build experiences that merge code
-                and design. Whether developing games, web
-                applications, or crafting pixel art, I approach
+                Fascinated by technology since I'm 6, I combine technical rigor with artistic
+                creativity to build unique experiences.
+                Whether developing games, web
+                applications, or drawing, I approach
                 each project with dedication and attention to
-                detail.
+                detail. 
               </p>
             </div>
 
@@ -78,7 +84,7 @@ export default function AboutSection() {
 
             <div>
               <h3 className="text-pink-400 mb-4 text-lg">
-                [&gt;] Tech Skills
+                [&gt;] Hard Skills
               </h3>
               <div className="space-y-3">
                 {skills.map((skill) => (
@@ -105,7 +111,7 @@ export default function AboutSection() {
 
           <div>
             <h3 className="text-pink-400 mb-4 text-lg">
-              [&gt;] Design & Development Skills
+              [&gt;] Soft Skills
             </h3>
             <div className="space-y-3 mb-8">
               {secondarySkills.map((skill) => (
@@ -138,12 +144,6 @@ export default function AboutSection() {
                 </span>
                 <span className="px-3 py-1.5 bg-cyan-500/10 border border-cyan-500/30 rounded text-sm">
                   Unreal Engine
-                </span>
-                <span className="px-3 py-1.5 bg-cyan-500/10 border border-cyan-500/30 rounded text-sm">
-                  SQL
-                </span>
-                <span className="px-3 py-1.5 bg-cyan-500/10 border border-cyan-500/30 rounded text-sm">
-                  HTML/CSS
                 </span>
               </div>
             </div>
