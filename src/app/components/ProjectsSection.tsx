@@ -1,4 +1,5 @@
 import projectsImage from '../../imports/image-4.png';
+import nemorisLogo from '../../imports/nemoris-logo.png';
 
 export default function ProjectsSection() {
   const projects = [
@@ -7,7 +8,8 @@ export default function ProjectsSection() {
       description: 'A travel agency website built with HTML and CSS, featuring a modern design and responsive layout for browsing destinations and booking trips to Lemuria, an imaginary mystical underwater island.',
       tech: ['HTML', 'CSS', 'Web Design', 'University Project'],
       gradient: 'from-blue-500 to-cyan-500',
-      image:'/src/imports/nemoris-logo',
+      image: nemorisLogo,
+      isLogo: true,
     },
     {
       title: 'Space\'Venture',
@@ -42,11 +44,15 @@ export default function ProjectsSection() {
               <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${project.gradient} opacity-0 group-hover:opacity-100 transition-opacity z-10`} />
 
               {/* Project image */}
-              <div className="relative h-44 overflow-hidden">
+              <div className="relative h-44 overflow-hidden bg-purple-950/50 flex items-center justify-center">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className={`transition-transform duration-500 group-hover:scale-110 ${
+                    project.isLogo
+                      ? 'h-32 w-auto object-contain'
+                      : 'w-full h-full object-cover'
+                  }`}
                   onError={(e) => {
                     e.currentTarget.style.backgroundColor = '#4c1d95';
                   }}
