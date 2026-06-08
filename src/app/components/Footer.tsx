@@ -24,7 +24,7 @@ export default function Footer() {
 
           <div className="space-y-4">
             <h4 className="text-pink-400 text-base">
-              Get in Touch
+              Let's Work Together-
             </h4>
             <div className="flex flex-col gap-3">
               <a
@@ -38,7 +38,6 @@ export default function Footer() {
                   celia.o4@outlook.fr
                 </span>
               </a>
-
               <a
                 href="https://github.com/celiapplepi"
                 target="_blank"
