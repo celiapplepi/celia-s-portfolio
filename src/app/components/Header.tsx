@@ -13,7 +13,7 @@ export default function Header() {
           <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center transform rotate-45">
             <span className="text-white font-bold transform -rotate-45"></span>
           </div>
-          <span className="text-white font-bold tracking-wider text-xl" style={{ fontFamily: 'Press Start 2P, cursive' }}>CELIA</span>
+          <span className="text-white font-bold tracking-wider text-xl" style={{ fontFamily: 'Press Start 2P, cursive' }}>cel's portfolio</span>
         </div>
 
         <div className="hidden md:flex gap-8">
