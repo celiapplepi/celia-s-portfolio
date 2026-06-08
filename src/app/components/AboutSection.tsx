@@ -54,7 +54,7 @@ export default function AboutSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-xl text-gray-300 leading-relaxed">
-                Hello ! I am Celia, an aspiring video-game / application developper.
+                Hello ! I am Celia, an aspiring application/ web / video-game developper.
               </p>
               <p className="text-lg text-gray-400 leading-relaxed">
                 Fascinated by technology since I'm 6 years old, I combine technical rigor with artistic
