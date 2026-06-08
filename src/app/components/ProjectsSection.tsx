@@ -25,7 +25,7 @@ export default function ProjectsSection() {
     },
   ];
 
-   return (
+  return (
     <section id="projects" className="min-h-screen flex items-center justify-center py-20 px-6">
       <div className="container max-w-6xl">
         <div className="mb-12">
@@ -37,29 +37,16 @@ export default function ProjectsSection() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-lg border border-purple-500/30 bg-gradient-to-br from-purple-950/40 to-background hover:border-purple-500/60 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20"
+              className="group relative overflow-hidden rounded-lg border border-purple-500/30 bg-gradient-to-br from-purple-950/40 to-background p-6 hover:border-purple-500/60 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20"
             >
-              <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${project.gradient} opacity-0 group-hover:opacity-100 transition-opacity z-10`} />
+              <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${project.gradient} opacity-0 group-hover:opacity-100 transition-opacity`} />
 
-              {/* Project image */}
-              <div className="relative h-44 overflow-hidden">
-                <ImageWithFallback
-                  src={project.image}
-                  alt={project.imageAlt}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                {/* Dark overlay for readability */}
-                <div className={`absolute inset-0 bg-gradient-to-t from-purple-950/80 via-transparent to-transparent`} />
-                {/* Colored tint on hover */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-0 group-hover:opacity-20 transition-opacity duration-300`} />
-              </div>
-
-              <div className="p-6 space-y-4">
+              <div className="space-y-4">
                 <div className="flex items-start justify-between">
                   <h3 className="text-white group-hover:text-pink-400 transition-colors text-base">
                     {project.title}
                   </h3>
-                  <div className="w-2 h-2 rounded-full bg-cyan-500 animate-pulse flex-shrink-0 mt-1" />
+                  <div className="w-2 h-2 rounded-full bg-cyan-500 animate-pulse" />
                 </div>
 
                 <p className="text-base text-gray-400 leading-relaxed">
