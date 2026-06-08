@@ -11,7 +11,7 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center transform rotate-45">
-            <span className="text-white font-bold transform -rotate-45">▲</span>
+            <span className="text-white font-bold transform -rotate-45"></span>
           </div>
           <span className="text-white font-bold tracking-wider text-xl" style={{ fontFamily: 'Press Start 2P, cursive' }}>CELIA</span>
         </div>
