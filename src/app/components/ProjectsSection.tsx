@@ -7,18 +7,21 @@ export default function ProjectsSection() {
       description: 'A travel agency website built with HTML and CSS, featuring a modern design and responsive layout for browsing destinations and booking trips to Lemuria, an imaginary mystical underwater island.',
       tech: ['HTML', 'CSS', 'Web Design', 'University Project'],
       gradient: 'from-blue-500 to-cyan-500',
+      image:'/src/imports/nemoris-logo',
     },
     {
       title: 'Space\'Venture',
       description: 'A 2D cosmic exploration game built in GameMaker. Navigate through space and discover new planets in this space adventure.',
       tech: ['GameMaker', 'Game Design', 'Work In Progress'],
       gradient: 'from-purple-500 to-pink-500',
+      image: 'https://images.unsplash.com/photo-1457365050282-c53d772ef8b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxzcGFjZSUyMGdhbWUlMjByb2NrZXQlMjBzdGFyc3xlbnwxfHx8fDE3ODA5MDMyODZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     },
     {
       title: 'Firework Rush',
       description: 'A 24-hour game jam entry with a fast-paced clicker/runner mechanic. Make your way through the sky and avoid obstacles. Available on itch.io',
       tech: ['Game Jam', 'Unity', 'C#'],
       gradient: 'from-pink-500 to-orange-500',
+      image: 'https://images.unsplash.com/photo-1543718290-a207a786243a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxmaXJld29ya3MlMjBuaWdodCUyMGNlbGVicmF0aW9uJTIwY29sb3JmdWx8ZW58MXx8fHwxNzgwOTAzMjkwfDA&ixlib=rb-4.1.0&q=80&w=1080',
     },
   ];
 
